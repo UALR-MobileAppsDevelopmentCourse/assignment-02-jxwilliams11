@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 
-// TODO 10. Modify the build configuration to make the app compatible with devices running an Android version above 14
 
 android {
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.ualr.myfirstapp"
-        minSdkVersion 20
+        minSdkVersion 14
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
